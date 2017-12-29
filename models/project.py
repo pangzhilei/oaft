@@ -33,7 +33,7 @@ class Project:
 
 
 class H5:
-    def __init__(self,webtitle,headline,icon,summary,music,loading,psd,share,data,url,api,monitor,duration;cdn,authorization,multilink,maintenance,h5info):
+    def __init__(self,webtitle,headline,icon,summary,music,loading,psd,share,data,url,api,monitor,duration,cdn,authorization,multilink,maintenance,h5info):
         self.webtitle=webtitle
         self.headline=headline
         self.summary=summary

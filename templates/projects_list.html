@@ -24,8 +24,8 @@
 <body>
     <div class="container">
         <div class="row">
-            {% for i in project %}
-                <h1>{{project[i]}}</h1> 
+            {% for i in iter(project) %}
+                <h1>{{i}}</h1> 
             {% endfor %}
         </div>
         
