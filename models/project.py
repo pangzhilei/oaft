@@ -1,5 +1,5 @@
 class Project:
-    def __init__(self,title,agency,boss,price,tax,bonus,costforcode,costforweb,costformanager,costforexpress,costforserver,costforcdn,costfromaintenance,costfor3rdparty,manager,flow,prototype,sow,sob,expressno,debugdate,deadline,contract,invoice,getmoney,close,info):
+    def __init__(self,title,agency,boss,price,tax,bonus,costforcode,costforweb,costformanager,costforexpress,costforserver,costforcdn,costformaintenance,costfor3rdparty,manager,flow,prototype,sow,sob,expressno,debugdate,deadline,contract,invoice,getmoney,close,info):
         self.title=title
         self.agency=agency
         self.boss=boss
@@ -12,7 +12,7 @@ class Project:
         self.costforexpress=costforexpress
         self.costforserver=costforserver
         self.costforcdn=costforcode
-        self.costfromaintenance=costfromaintenance
+        self.costformaintenance=costformaintenance
         self.costfor3rdparty=costfor3rdparty
         self.manager=manager
         self.flow=flow
