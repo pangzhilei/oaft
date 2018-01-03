@@ -18,17 +18,15 @@ def projects_list():
 
 @app.route('/rq/')
 def rq():
-    return 'heloo',404,{'content-type':text/plain}
+    return render_template('main.html')
 
 @app.route('/test/')
 def test():
-    return render_template('test.html')
+    return render_template('projects_list.html')
 
-@app.route('/get/',methods=['post'])
+@app.route('/get/')
 def get():
-    name=request.values.get('user')
-
-    return f'my name is {name}'
+    return render_template('/get.html/')
 
 if __name__ == '__main__':
     app.run(debug=True)
