@@ -3,7 +3,7 @@ from models.project import Project
 from urllib.parse import unquote
 
 
-#从头学起 测试
+#有点晕
 app = Flask(__name__)
 
 @app.route('/')
